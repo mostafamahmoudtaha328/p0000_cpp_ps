@@ -12,13 +12,13 @@ int main()
     if(num == 0)
         cout << "Invalid character/s or zero value!\n";
     
-    else if (int(num1) != num1)
+    else if (int(num) != num)
         cout << "Invalid: a floating point number!\n";
     
     else if (num >= 32 && num <= 126)
     {
-        char t = char(num1);
-        cout << "The character for " << num1 << " is " << char(num1) << "." << endl;
+        char t = char(num);
+        cout << "The character for " << num << " is " << char(num) << "." << endl;
     }
     
     else
@@ -26,4 +26,4 @@ int main()
     
     return 0;
 }
-// good work 👍 7/10
+// good work 👍 6/10
